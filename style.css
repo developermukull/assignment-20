@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+img{
+    max-width: 100%;
+}
+
+.clear::after{
+    content: "";
+    clear: both;
+    display: block;
+
+}
+.left{
+    float: left;
+}
+.right{
+    float: right;
+}
+.main-div{
+    width: 1400px;
+    margin: auto;
+}
+/* start css */
+.header-section{
+    padding: 20px;
+}
+.header-section ul{
+    text-align: center;
+}
+.header-section ul li{
+    display: inline-block;
+    margin-left: 10px;
+    margin-right: 10px;
+
+}
+.header-section ul li a{
+    color: #000;
+    background: #dddddd;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+/* banner-section */
+
+.banner-section{
+    background-color: #dddddd;
+    padding: 40px;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+.banner-section h1{
+    color: #ab3130;
+}
+/* about-sectionn */
+.about-section{
+    margin-top: 30px;
+}
+.about-section .left-img{
+    float: left;
+    width: 40%;
+}
+.left-img img {
+	width: 620px;
+	height: 350px;
+}
+.about-section .right-text{
+    float: right;
+    width: 60%;
+}
+
+.right-text h1{
+    background: #dddddd;
+    padding-left: 160px;
+}
+.right-text h3{
+    padding-left: 160px;
+    color: #a63235;
+}
+.right-text p{
+    padding-left: 160px;
+}
+.right-text h5{
+    padding: 7px 0 7px 160px;
+}
+.right-text ul{
+    padding-left: 160px;
+}
+.right-text ul a{
+    color: #000;
+    text-decoration: none;
+}
+
+/* service-section */
+.srvs-btn{
+    text-align: center;
+}
+.srvs-btn a{
+    font-size: 30px;
+    color: #000;
+    background: #dddddd;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    border: 2px solid rgb(92, 84, 84);
+    font-weight: bold;
+}
+.service-box{
+    float: left;
+    width: 31.3%;
+    margin-top: 30px;
+    background: #dddddd;
+    margin: 14px;
+    text-align: center;
+    padding: 30px 10px;
+    box-sizing: border-box;
+}
+.footer-section{
+    background-color: #dddddd;
+    padding: 15px 20px;
+    margin-bottom: 30px;
+    text-align: center;
+    border-top: 2px solid #000;
+}
